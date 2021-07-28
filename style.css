@@ -69,6 +69,7 @@ body{
     margin: 5%;
     padding: 5%;
     box-shadow: 10px 10px 15px grey;
+    border-radius: 5px;
 }
 .small-width img{
     width: 100%;

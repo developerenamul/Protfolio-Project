@@ -16,7 +16,7 @@ body{
     background-repeat: no-repeat;
 
 }
-section{
+.flexiable-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -53,4 +53,48 @@ section{
     background-repeat: no-repeat;
     background-position:  right;
     padding-right: 5%;
+}
+
+/* experience area */
+#experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left  center;
+}
+.senior-dev,
+.junior-dev {
+    width: 45%;
+    padding-left: 5%;
+    margin: 0 5%;
+}
+
+.junior-dev{
+    padding-right: 5%;
+}
+
+.senior-dev,
+.junior-dev{
+    box-shadow:10px 10px 20px black ;
+    background: linear-gradient(blue,cyan);
+}
+/* border image */
+.senior-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, red); 
+    border-image-slice: 1;
+}
+
+.junior-dev{
+ border-left: 7px solid;
+ border-image: linear-gradient(rgb(61, 243, 16), rgb(255, 115, 0));
+ border-image-slice: 1;
+}
+
+/* footer sectopn */
+footer{
+    background: #ddd;
+    padding: 10px 0;
+}
+footer p{
+    text-align: center;
 }
